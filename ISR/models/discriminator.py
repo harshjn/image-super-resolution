@@ -1,7 +1,7 @@
-from tensorflow.keras.layers import Input, Activation, Dense, Conv2D, BatchNormalization, \
+from tensorflow.python.keras.layers import Input, Activation, Dense, Conv2D, BatchNormalization, \
     LeakyReLU
-from tensorflow.keras.models import Model
-from tensorflow.keras.optimizers import Adam
+from tensorflow.python.keras.models import Model
+from tensorflow.python.keras.optimizers import Adam
 
 
 class Discriminator:
